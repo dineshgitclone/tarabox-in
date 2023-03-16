@@ -36,7 +36,7 @@ start_msg_txt = '''<b>Hey There, {firstname}
 🔂 I Can Convert to [Tarabox.in](https://Tarabox.in/)
 ©️Powered By@CrazeBots</b>'''
 
-about_txt = '''Hlw {name}.\n**🤖 Name :** Mdisk Shortener
+about_txt = '''Hlw {name}.\n**🤖 Name :** Tarabox Shortener
 **🔠 Language :** Python3
 **📚 Library :** Pyrogram
 **🧑🏻‍💻 Developer :** @Rahul_Thakor
