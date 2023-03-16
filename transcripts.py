@@ -24,7 +24,7 @@ start_txt = '''Hello {name}, I am [Tarabox.in](https://Tarabox.in/) , Bulk Link 
 
 **TARABOX_IN UPDATE CHANNEL =>** @TaraBox_in
 
-<i>Anyone who want to use any other shortner instead of Mdiskshortner than contact at</i> 👉 @Rahul_Thakor (all shortners support avilable.)'''
+<i>Anyone who want to use any other shortner instead of TaraBox_in than contact at</i> 👉 @Rahul_Thakor (all shortners support avilable.)'''
 
 
 start_msg_txt = '''<b>Hey There, {firstname}
