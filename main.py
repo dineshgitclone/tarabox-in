@@ -319,6 +319,12 @@ async def text_msgs(_, m):
     return
 
   MSG = await m.reply_text("__Converting__")
+  DOMAIN = find_any(user, "DOMAIN")
+  if not DOMAIN:
+    DOMAIN = 'tarabox.in'
+
+  else:
+    DOMAIN = DOMAIN.lower()
 
   FOOTER = find_any(user, 'FOOTER')
   if FOOTER:
@@ -333,7 +339,7 @@ async def text_msgs(_, m):
     INVITE_LINK = ' '
   try:
     await MSG.edit_text(f'**{progress_txt}..**')
-    caption = convert_post(m.text, API, INVITE_LINK)
+    caption = convert_post(m.text, API, INVITE_LINK,DOMAIN)
     caption = f'{caption}\n{FOOTER}'
     text = f'<b>{caption}</b>'
     await MSG.edit_text(f'{text}', disable_web_page_preview=True)
