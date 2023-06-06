@@ -5,7 +5,7 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
-    repo: https://github.com/crazebotz/Hornx11.git      
+    repo: https://github.com/dineshgitclone/tarabox-in     
     branch: main
     envVars:
       - key: BOT_TOKEN 
