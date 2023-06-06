@@ -18,10 +18,10 @@ bot = Client("Url-Short-Bot", api_id=API_ID,
 
 
 # URL Shortner
-SHORT_API = '5262cd883f8fd21ff1c7499db268d90f3af50578'
+SHORT_API = '233f81db4b3afb2cfc1be7e0cad4d6b066b7cbb5'
 API_PTN = r'[a-z0-9]{35,43}'
 
-REAL_URL = 'https://tarabox.in/api?'
+REAL_URL = 'https://ez4short.com/api?'
 url_ptrn = r'https?://[^\s]+'
 
 
